@@ -4,6 +4,8 @@ A small POSIX shell written in C as a single source file. It reads commands in a
 
 ![sate-shell session](assets/session.png)
 
+![help output](assets/help.png)
+
 ## Features
 
 **Shell loop**
@@ -31,7 +33,7 @@ Anything else is run with `fork()`, `execvp()` (searches `$PATH`), and `waitpid(
 ## Quick Start
 
 ```sh
-git clone https://github.com/<your-username>/sate-shell.git
+git clone https://github.com/SateHad/sate-shell.git
 cd sate-shell
 gcc -Wall -Wextra -g myshell.c -o myshell
 ./myshell
@@ -49,5 +51,5 @@ Requires Linux and GCC. Type `help` at the prompt.
 
 ```
 myshell.c    shell source
-assets/      screenshots
+assets/      screenshots (session.png, help.png)
 ```
