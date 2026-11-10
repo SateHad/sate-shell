@@ -2,9 +2,9 @@
 
 A small POSIX shell written in C as a single source file. It reads commands in a loop, handles a handful of built-ins itself, and runs everything else as a child process.
 
-![sate-shell session](assets/session.png)
-
 ![help output](assets/help.png)
+
+![sate-shell session](assets/session.png)
 
 ## Features
 
